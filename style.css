@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+body{
+    background: navy;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.main_counter{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+#count{
+    
+    font-size: 70px;
+    text-align: center;
+    margin-right: 80px;
+    color: antiquewhite;
+}
+#count2{
+    
+    font-size: 70px;
+    text-align: center;
+    color: rgb(238, 56, 56);
+}
+.btn{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+#like{
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 7px;
+    margin-right: 20px;
+    width: 100px;
+    text-transform: uppercase;
+    
+}
+#Unlike{
+    border-radius: 7px;
+    padding: 7px;
+    font-size: 20px;
+    margin-left: 40px;
+    width: 130px;
+    text-transform: uppercase;
+}
+#like:hover{
+    cursor: pointer;
+    background-color:rgb(89, 178, 207);
+    color:#fff;
+}
+#Unlike:hover{
+    cursor: pointer;
+    background-color:rgb(89, 178, 207);
+    color:#fff;
+}
